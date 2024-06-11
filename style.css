@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("Imagens/Fundo.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-y: hidden;
+   overflow-x: hidden;
+    
+
+}
+
+#container {
+    position: relative;
+    height: 97vh;
+}
+
+#menu {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    border: 5px solid black;
+
+    left:200px;
+    top:55px;
+}
+
+#perfil {
+    position: absolute;
+    background-image: url("Imagens/Eu.webp");
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#Nome {
+    position: absolute;
+    font-size: 1.5em;
+    text-decoration: underline;
+
+    left:200px;
+    top:20px;
+
+}
